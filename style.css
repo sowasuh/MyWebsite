@@ -1,0 +1,105 @@
+/* 🌈 Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans:wght@400;600&display=swap');
+
+/* ✨ Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #fff8e1, #ffe0b2);
+  color: #4e342e;
+}
+
+/* 🧭 Header and nav */
+header {
+  background: linear-gradient(to right, #ffca28, #ffab00);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3em;
+  margin: 0;
+  color: #6d1b7b;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #4e342e;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #6d1b7b;
+}
+
+/* 🌟 Main hero section */
+.hero {
+  padding: 30px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #8e24aa;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.hero ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hero ul li {
+  font-size: 1em;
+  margin: 8px 0;
+}
+
+/* 📸 Image styling */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.featured-img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.featured-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(142, 36, 170, 0.6);
+}
+
+/* 🚧 Footer styling */
+footer {
+  background-color: #ffe082;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #6d1b7b;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+}
